@@ -1,1 +1,1 @@
-worker: bundle exec sidekiq --concurrency 1 --queue default,ts_delta
+worker: env QUEUE=* bundle exec rake resque:work
