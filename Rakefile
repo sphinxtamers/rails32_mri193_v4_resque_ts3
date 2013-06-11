@@ -54,3 +54,6 @@ namespace :trainer do
     system 'flying-sphinx stop'
   end
 end
+
+require 'resque/tasks'
+task "resque:setup" => :environment
