@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+ruby '1.9.3'
+
 gem 'rails',  '3.2.13'
 gem 'pg',     '0.15.1'
 gem 'mysql2', '0.3.12b5'
